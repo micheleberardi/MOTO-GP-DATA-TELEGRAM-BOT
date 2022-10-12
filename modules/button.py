@@ -17,7 +17,13 @@ def button_list_circuits(category):
     button1 = InlineKeyboardButton(text="🇦🇹Red Bull Ring", callback_data="circuits-" + str(category) + "-austria-13")
     button2 = InlineKeyboardButton(text="🇬🇧Silverstone", callback_data="circuits-" + str(category) + "-uk-12")
     button3 = InlineKeyboardButton(text="🇸🇲SanMarino", callback_data="circuits-" + str(category) + "-it-14")
-    keyboard_inline = InlineKeyboardMarkup(resize_keyboard=True).add(button1, button2,button3)
+    button4 = InlineKeyboardButton(text="🇪🇸Aragon", callback_data="circuits-" + str(category) + "-es-15")
+    button5 = InlineKeyboardButton(text="🇯🇵Motul ", callback_data="circuits-" + str(category) + "-jp-16")
+    button6 = InlineKeyboardButton(text="🇹🇭Thailand ", callback_data="circuits-" + str(category) + "-th-17")
+    button7 = InlineKeyboardButton(text="🇦🇺Australia ", callback_data="circuits-" + str(category) + "-au-18")
+    button8 = InlineKeyboardButton(text="🇲🇾Malaysia ", callback_data="circuits-" + str(category) + "-ma-19")
+    button9 = InlineKeyboardButton(text="🇪🇸Valencia ", callback_data="circuits-" + str(category) + "-va-20")
+    keyboard_inline = InlineKeyboardMarkup(resize_keyboard=True).add(button1, button2,button3,button4,button5,button6,button7,button8,button9)
     return keyboard_inline
 
 

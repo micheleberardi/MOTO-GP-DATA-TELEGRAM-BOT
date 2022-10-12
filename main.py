@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 DEFAULT_CONFIG = {
     "api_id": "",
     "api_hash": "",
-    "bot_token": "",
+    "bot_token": "1722679318:AAEFLSggjahVJpifH77JZLvf3E8AR82GRXo",
     "api_url": "",
     "api_token": ""
 }
